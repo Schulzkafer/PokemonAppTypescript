@@ -20,7 +20,7 @@ const PageMultiple: React.FC<IPageMultiple> = ({
 }) => {
 
    const intialState: IHooksStates = {
-      allPokes: [1],
+      allPokes: [],
       filteredPokesCharacteristics: [],
       isLoading: false,
    }
